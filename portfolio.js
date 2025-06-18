@@ -8,8 +8,8 @@ window.addEventListener("load", () => {
   gsap.fromTo(subtitle, { opacity: 0, y: 40 }, { opacity: 1, y: 0, delay: 1, duration: 1.5 });
 
   gsap.to("#intro-animation", {
-    delay: 3.5,
-    duration: 1,
+    delay: 1.7,
+    duration: 0.8,
     opacity: 0,
     onComplete: () => {
       intro.style.display = "none";
